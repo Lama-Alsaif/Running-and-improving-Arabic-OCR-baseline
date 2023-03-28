@@ -11,6 +11,8 @@ You should start off by downloading the tessaract engine from their [official we
 
 During installation, you will be presented with a page that allows you to add more components. Arabic should be included in the Additional language and script data.
 
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://github.com/Lama-Alsaif/Running-and-improving-Arabic-OCR-baseline/readme_assets/Screenshot 2023-03-28 124945.png)
+
 
 
 
