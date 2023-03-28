@@ -33,6 +33,6 @@ class runner:
 if __name__ =="__main__":
     preprocessor=preprocessor()
     model_runner = model_runner()
-    runner=runner(preprocessor,model_runner,"..\\assets\\normal\\1.jpeg")
+    runner=runner(preprocessor,model_runner,"..\\assets\\rotated\\5.jpeg")
     runner.start_model()
 
