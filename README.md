@@ -9,15 +9,46 @@ In this project, I used [tessaract OCR](https://github.com/tesseract-ocr/tessera
 
 You should start off by downloading the tessaract engine from their [official website](https://tesseract-ocr.github.io/tessdoc/Installation.html) and should follow the steps for your operating system 
 
-During installation, you will be presented with a page that allows you to add more components. Arabic should be included in the Additional language and script data.
+During installation, you will be presented with same as the image below it allows you to add more components. Arabic should be included in the Additional language and script data.
 
 ![image of the page](https://github.com/Lama-Alsaif/Running-and-improving-Arabic-OCR-baseline/tree/main/readme_assets/1.png)
 
-and also remober the location of this folder since we are going to use it in our code later 
+also, remember the location of this folder of the image below since we are going to use it in our code later and if you are a windows user it is prefered to not change it so you do not have to change the code later.
 
 ![image of the page](https://github.com/Lama-Alsaif/Running-and-improving-Arabic-OCR-baseline/tree/main/readme_assets/2.png)
 
+after the installation is completed create clone the current repository by 
 
+```
+git clone https://github.com/Lama-Alsaif/Running-and-improving-Arabic-OCR-baseline.git
+```
+
+then open it up with your favorite editor and go to ```src/main.py``` 
+and change the location of ```pytesseract.pytesseract.tesseract_cmd ``` variable to the location you have installed tessaract OCR in 
+(if you are a windows user and keep it in its default location you can skip this step)
+
+when you are done with this step I would recommend creating a venv environment by going to the repository path and opening up the terminal and typing 
+
+```
+python -m venv env
+```
+this creates a env folder where the new environment will be stored 
+
+then type
+
+``` 
+&env/Scripts/Activate.ps1
+```
+
+or if the above command did not work type
+
+```
+env/Scripts/activate.bat
+```
+
+finally type  
+```
+```
 
 
 
