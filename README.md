@@ -13,6 +13,10 @@ During installation, you will be presented with a page that allows you to add mo
 
 ![image of the page](https://github.com/Lama-Alsaif/Running-and-improving-Arabic-OCR-baseline/tree/main/readme_assets/1.png)
 
+and also remober the location of this folder since we are going to use it in our code later 
+
+![image of the page](https://github.com/Lama-Alsaif/Running-and-improving-Arabic-OCR-baseline/tree/main/readme_assets/2.png)
+
 
 
 
