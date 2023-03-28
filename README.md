@@ -45,11 +45,17 @@ or if the above command did not work type
 ```
 env/Scripts/activate.bat
 ```
+this will activate the evnviorment and you should see the (env) at the begging of your commend line, like the picture below 
+
+![image of the cmd with (env)](https://github.com/Lama-Alsaif/Running-and-improving-Arabic-OCR-baseline/tree/main/readme_assets/3.png)
 
 finally type  
 ```
+ pip install -r requirements.txt
 ```
+to download all the required libraries including pytesseract which is used to link pytesseract with python
 
+the last step now is to  run ```main.py``` to run the code 
 
 
 
