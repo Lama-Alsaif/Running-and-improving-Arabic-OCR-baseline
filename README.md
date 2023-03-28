@@ -11,11 +11,11 @@ You should start off by downloading the tessaract engine from their [official we
 
 During installation, you will be presented with same as the image below it allows you to add more components. Arabic should be included in the Additional language and script data.
 
-![image of the page](https://github.com/Lama-Alsaif/Running-and-improving-Arabic-OCR-baseline/tree/main/readme_assets/1.png)
+![image of the page](readme_assets/1.png)
 
 also, remember the location of this folder of the image below since we are going to use it in our code later and if you are a windows user it is prefered to not change it so you do not have to change the code later.
 
-![image of the page](https://github.com/Lama-Alsaif/Running-and-improving-Arabic-OCR-baseline/tree/main/readme_assets/2.png)
+![image of the page](readme_assets/2.png)
 
 after the installation is completed create clone the current repository by 
 
@@ -47,7 +47,7 @@ env/Scripts/activate.bat
 ```
 this will activate the evnviorment and you should see the (env) at the begging of your commend line, like the picture below 
 
-![image of the cmd with (env)](https://github.com/Lama-Alsaif/Running-and-improving-Arabic-OCR-baseline/tree/main/readme_assets/3.png)
+![image of the cmd with (env)](readme_assets/3.png)
 
 finally type  
 ```
@@ -61,7 +61,7 @@ the last step now is to  run ```main.py``` to run the code
 ## Traning 
 
 1-To train images on the tessaract OCR model we first have to change the image to a box file we will have to download  a tool called [jTessBoxEditor](https://sourceforge.net/projects/vietocr/files/jTessBoxEditor/) download the version in the screen shotbelow 
-![image of the cmd with (env)](https://github.com/Lama-Alsaif/Running-and-improving-Arabic-OCR-baseline/tree/main/readme_assets/4.png)
+![image of the cmd with (env)](readme_assets/4.png)
 unzip the file and open up the train.bat 
 
 2-create a box file 
