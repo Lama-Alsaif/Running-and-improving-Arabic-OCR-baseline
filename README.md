@@ -25,14 +25,14 @@ git clone https://github.com/Lama-Alsaif/Running-and-improving-Arabic-OCR-baseli
 
 then open it up with your favorite editor and go to ```src/main.py``` 
 and change the location of ```pytesseract.pytesseract.tesseract_cmd ``` variable to the location you have installed tessaract OCR in 
-(if you are a windows user and keep it in its default location you can skip this step)
+(if you are a windows user and kept it in its default location you can skip this step)
 
-when you are done with this step I would recommend creating a venv environment by going to the repository path and opening up the terminal and typing 
+when you are done with this step I would recommend creating a venv environment by going to the repository path and opening up the terminal type 
 
 ```
 python -m venv env
 ```
-this creates a env folder where the new environment will be stored 
+this creates an env folder where the new environment will be stored 
 
 then type
 
@@ -53,9 +53,9 @@ finally type
 ```
  pip install -r requirements.txt
 ```
-to download all the required libraries including pytesseract which is used to link pytesseract with python
+to download all the required libraries including pytesseract which is used to link tesseract with python
 
-the last step now is to  run ```main.py``` to run the code 
+the last step now is to  run ```main.py``` 
 
 
 ## Traning 
