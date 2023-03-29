@@ -24,6 +24,7 @@ joblib==1.2.0
 jpeg4py==0.1.4
 kiwisolver==1.4.4
 lazy-loader==0.2
+mahotas==1.4.13
 MarkupSafe==2.1.2
 matplotlib==3.7.1
 mpmath==1.3.0
