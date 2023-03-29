@@ -46,11 +46,13 @@ class preprocessor:
             #image pre-proccessing steps
             img_path_format=self.change_format(img_path)
             img_path_dpi=self.change_dpi(img_path_format)
-            # img_path_norma=self.img_normalization(img_path_dpi)
+            # img_path_norma=self.img_normalization(img_path)
             img_path_sharp=self.img_sharp(img_path_dpi)
             img_path_otsu=self.otsu_method_img(img_path_sharp)
             img_path_skeleton = self.skeletonisation(img_path_otsu)
             final_img = self.gery_imag(img_path_skeleton)
+            # final_img=self.binarize(img_path_grey)
+
 
             
             
