@@ -1,5 +1,5 @@
 # Running-and-improving-Arabic-OCR-baseline
- 
+This repository is created to try to improve the result of tessaract OCR for Arabic using image pre-processing methods
 ## Content
 [About](#about) 
 
